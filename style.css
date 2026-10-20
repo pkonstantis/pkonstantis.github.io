@@ -213,3 +213,9 @@ figcaption { margin-top: 10px; font-size: 0.9rem; color: var(--muted); }
   .layout { grid-template-columns: 1fr; }
   a { color: inherit; }
 }
+
+/* Fließtext auf Unterseiten: angenehme Zeilenlänge */
+.prose p { max-width: 68ch; }
+
+/* Hoch-/Tiefstellungen sollen den Zeilenabstand nicht vergrößern */
+sub, sup { line-height: 0; }
